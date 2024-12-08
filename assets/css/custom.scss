@@ -1,8 +1,6 @@
 ---
 ---
 
-@import 'jekyll-theme-hacker';
-
 nav {
   margin: 20px 0;
   line-height: 2em;
@@ -14,15 +12,10 @@ nav {
   margin: 0 15px;
   display: inline-block;
   margin-bottom: 10px;
-  transition: color 0.3s ease;
-}
-
-.nav-link:hover {
-  color: #00b4ff;
 }
 
 .nav-link.active {
-  color: #00b4ff;
+  color: #ff8c00;
   font-weight: bold;
 }
 

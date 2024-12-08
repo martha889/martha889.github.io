@@ -3,3 +3,8 @@ description: all my thoughts in one place
 url: martha889.github.io
 show_downloads: false
 theme: jekyll-theme-hacker
+header_pages:
+  - tech/index.md
+  - science/index.md
+  - arts/index.md
+  - about/index.md

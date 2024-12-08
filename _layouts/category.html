@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<h1>{{ page.category | capitalize }} Posts</h1>
+
+{% assign category_posts = site.categories[page.category] %}
+{% if category_posts %}
+  {% assign sorted_posts = category_posts | sort: 'date' | reverse %}
+  {% for post in sorted_posts %}
+    <article class="post-preview">
+      <h2>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h2>
+      <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+      {% if post.excerpt %}
+        <div class="post-excerpt">
+          {{ post.excerpt }}
+        </div>
+      {% endif %}
+    </article>
+  {% endfor %}
+{% else %}
+  <p>No posts found in this category.</p>
+{% endif %}
+
+
+
+
