@@ -8,10 +8,10 @@ Hi! I'm Sarthak Choudhary. I love building stuff with computers or trying out an
 
 ## projects
 - [consistent hashing visualisation](https://github.com/martha889/raylib-projects/tree/main/consistent-hashing)
+- [game of life](https://github.com/martha889/raylib-projects/tree/main/game-of-life)
 
 ## currently
 - learning guitar and music theory
-- reading Gaban by Premchand
 
 ## other stuff
 - [film reviews](https://www.imdb.com/user/ur37894110/reviews)
